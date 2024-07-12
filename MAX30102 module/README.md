@@ -9,5 +9,5 @@
 - Jumpers
 
 ## Circuit Diagram:
-![Max30102](https://github.com/Harveychen2004/Raspberry_Pi_5_suit/blob/main/MAX30102%20module/Max30102.jpg?raw=true)
+![Max30102](https://github.com/Harveychen2004/Raspberry_Pi_5_suit/blob/eba409366c37ca0aa07a66a456f502462d5cf6ba/MAX30102%20module/Circuit_Diagram.jpg)
 
