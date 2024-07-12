@@ -23,7 +23,8 @@ Hardware application based on Raspberry Pi 5 board
 - Jupyterlab (Online)
 
 ## Wiring Diagram:
-
+![Wir_diagram1](https://github.com/Harveychen2004/Raspberry_Pi_5_suit/blob/7f7c3f528e60ff28aade5762cd28d58a00e364af/Environment/Wiring1.jpg)
+![Wir_diagram2](https://github.com/Harveychen2004/Raspberry_Pi_5_suit/blob/7f7c3f528e60ff28aade5762cd28d58a00e364af/Environment/Wiring2.jpg)
 
 
 
