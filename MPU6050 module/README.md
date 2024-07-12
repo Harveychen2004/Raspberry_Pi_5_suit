@@ -9,7 +9,7 @@
 - Jumpers
 
 ## Circuit Diagram:
-
+![Circuit_Diagram](https://github.com/Harveychen2004/Raspberry_Pi_5_suit/blob/48e38f95f79364153d70dfba27fb183b066eee14/MPU6050%20module/Circuit_Diagram.jpg)
 
 
 
