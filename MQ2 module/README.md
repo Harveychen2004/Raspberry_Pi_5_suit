@@ -10,7 +10,21 @@
 - Jumpers
 
 ## Circuit Diagram:
+| Raspberry Pi | T board | MCP3008 |
+| :----------: | ------- | ------- |
+|     3.3v     | 3.3v    | 3.3v    |
+|     GND      | GND     | GND     |
+|     CE0      | CE0     | CE0     |
+|     MOSI     | MOSI    | MOSI    |
+|     MISO     | MISO    | MISO    |
+|     SCK      | SCK     | SCK     |
 
+| MQ2  | T board | MCP3008 |
+| :--: | ------- | ------- |
+|  DO  | GPIO16  | \       |
+|  AO  | \       | AISO    |
+| 3.3v | 5v      | 3.3v    |
+| GND  | GND     | GND     |
 
 
 
