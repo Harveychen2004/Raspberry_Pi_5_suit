@@ -23,8 +23,8 @@
 | :--: | ------- | ------- |
 |  DO  | GPIO16  | \       |
 |  AO  | \       | AISO    |
-| 3.3v | 5v      | 3.3v    |
-| GND  | GND     | GND     |
+| VCC  | 5v      | \       |
+| GND  | GND     | \       |
 
 
 
