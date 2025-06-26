@@ -26,6 +26,7 @@ The MAX30102 shines red and infrared light into the skin (e.g., fingertip), and 
 | SDA          | I²C Data Line   | GPIO2 (SDA)              | Pin 3         |
 | SCL          | I²C Clock Line  | GPIO3 (SCL)              | Pin 5         |
 | INT (optional) | Interrupt Output | Any GPIO (e.g., GPIO17) | e.g., Pin 11   |
+
 ![Max30102](https://github.com/Harveychen2004/Raspberry_Pi_5_suit/blob/eba409366c37ca0aa07a66a456f502462d5cf6ba/MAX30102%20module/Circuit_Diagram.jpg)
 
 ## Sample Output
