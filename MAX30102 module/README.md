@@ -1,5 +1,14 @@
 # Max30102 Module #
 
+## Overview:
+
+The MAX30102 is an integrated pulse oximetry and heart-rate sensor module featuring a photodetector, red and infrared (IR) LEDs, and analog signal processing. It is ideal for applications such as wearable health monitors, medical diagnostics, and driver state detection systems.
+
+## Working Principle:
+The MAX30102 shines red and infrared light into the skin (e.g., fingertip), and measures the light that is reflected by blood vessels.
+	•	IR LED: used primarily for heart rate monitoring
+	•	Red LED: used to estimate blood oxygen saturation (SpO₂)
+
 ## Hardware Equipment:
 
 - Raspberry Pi 5 board
