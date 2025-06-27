@@ -5,6 +5,7 @@
 The MAX30102 is an integrated pulse oximetry and heart-rate sensor module featuring a photodetector, red and infrared (IR) LEDs, and analog signal processing. It is ideal for applications such as wearable health monitors, medical diagnostics, and driver state detection systems.
 
 ## Working Principle:
+
 The MAX30102 shines red and infrared light into the skin (e.g., fingertip), and measures the light that is reflected by blood vessels.
 - IR LED: used primarily for heart rate monitoring
 - Red LED: used to estimate blood oxygen saturation (SpO₂)
@@ -19,13 +20,23 @@ The MAX30102 shines red and infrared light into the skin (e.g., fingertip), and 
 
 ## Circuit Diagram:
 
-| MAX30102 Pin | Description   | Raspberry Pi GPIO (BCM) | Physical Pin |
-|--------------|----------------|--------------------------|---------------|
-| VIN          | Power Input     | 3.3V or 5V               | Pin 1 or Pin 2 |
-| GND          | Ground          | GND                      | Pin 6 or Pin 9 |
-| SDA          | I²C Data Line   | GPIO2 (SDA)              | Pin 3         |
-| SCL          | I²C Clock Line  | GPIO3 (SCL)              | Pin 5         |
-| INT (optional) | Interrupt Output | Any GPIO (GPIO17) | Pin 11   |
+| MAX30102 Pin | Description   | Raspberry Pi GPIO (BCM) | 
+|--------------|----------------|------------------------|
+| VIN          | Power Input     | 3.3V                  | 
+| GND          | Ground          | GND                   | 
+| SDA          | I²C Data Line   | GPIO2 (SDA)           | 
+| SCL          | I²C Clock Line  | GPIO3 (SCL)           | 
+
+
+## Technical Specification:
+
+| Parameter        | Value                              |
+|------------------|------------------------------------|
+| Interface        | I²C                                |
+| Supply Voltage   | 1.8V internal / 3.3V external input|
+| Principle        | Photoplethysmography (PPG)         |
+| Output Data      | Red and IR light intensity         |
+| I2C Address      | `0x57` (default)                   |
 
 ## Sample Output
 

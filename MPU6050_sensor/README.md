@@ -1,5 +1,16 @@
 # MPU6050 Module #
 
+## Overview:
+
+The MPU6050 is a popular MEMS (Micro-Electro-Mechanical Systems) module that combines a **3-axis gyroscope** and **3-axis accelerometer** on a single chip. It is widely used in motion detection, gesture recognition, robotics, and driver behavior monitoring applications. This module communicates via the **I²C interface**, making it easy to integrate with Raspberry Pi.
+
+## Working Principle:
+
+The MPU6050 continuously tracks **angular velocity (gyro)** and **linear acceleration (accel)** along the X, Y, and Z axes. These raw data values can be used to:
+- Detect sharp turns
+- Detect emergent braking
+- Detect emergent acceleration
+
 ## Hardware Equipment:
 
 - Raspberry Pi 5 board
@@ -9,12 +20,24 @@
 - Jumpers
 
 ## Circuit Diagram:
-![Circuit_Diagram](https://github.com/Harveychen2004/Raspberry_Pi_5_suit/blob/48e38f95f79364153d70dfba27fb183b066eee14/MPU6050%20module/Circuit_Diagram.jpg)
 
+| MAX30102 Pin | Description   | Raspberry Pi GPIO (BCM) | 
+|--------------|----------------|------------------------|
+| VIN          | Power Input     | 3.3V                  | 
+| GND          | Ground          | GND                   | 
+| SDA          | I²C Data Line   | GPIO2 (SDA)           | 
+| SCL          | I²C Clock Line  | GPIO3 (SCL)           | 
 
+## Technical Specification:
 
+| Parameter        | Value                              |
+|------------------|------------------------------------|
+| Interface        | I²C                                |
+| Supply Voltage   | 3.3V                               |
+| Output Data      | 3-axis Accelerometer + 3-axis Gyroscope + Temperature |
+| I2C Address      | `0x68` (default), `0x69` (ALT low) |
 
-## Sample Output:
+## Sample Output
 
 | Time                | Accelerometer_x | Accelerometer_y | Accelerometer_z | Gyroscope_x | Gyroscope_y  | Gyroscope_z  | Temperature |
 | ------------------- | --------------- | --------------- | --------------- | ----------- | ------------ | ------------ | ----------- |

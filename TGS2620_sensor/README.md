@@ -1,5 +1,17 @@
 # TGS2620 Module #
 
+## Overview
+
+The `TGS2620` is a semiconductor gas sensor designed for detecting a wide range of **organic solvent vapors and volatile gases**, including those found in **cigarette smoke, alcohol, and adhesives**. It is suitable for applications involving **air quality monitoring**, **smoke detection**, and **driver smoking behavior analysis**. This sensor provides an **analog output** that reflects gas concentration levels and requires an **external ADC** (like MCP3008) when interfaced with a Raspberry Pi.
+
+## Working Principle
+
+TGS2620 uses a **heated tin dioxide (SnO₂) sensing layer**, whose resistance varies in the presence of target gases. As gas concentration increases, the sensor's resistance drops, causing the output voltage to rise (across the load resistor).
+
+It is particularly sensitive to:
+- **Alcohol vapors**
+- **Cigarette smoke**
+
 ## Hardware Equipment:
 
 - Raspberry Pi 5 board
@@ -10,22 +22,25 @@
 - Jumpers
 
 ## Circuit Diagram:
-| Raspberry Pi | T board | MCP3008 |
-| :----------: | ------- | ------- |
-|     3.3v     | 3.3v    | 3.3v    |
-|     GND      | GND     | GND     |
-|     CE0      | CE0     | CE0     |
-|     MOSI     | MOSI    | MOSI    |
-|     MISO     | MISO    | MISO    |
-|     SCK      | SCK     | SCK     |
 
-| MQ2  | T board | MCP3008 |
-| :--: | ------- | ------- |
-|  DO  | \       | \       |
-|  AO  | \       | AIS1    |
-| VCC  | 5v      | \       |
-| GND  | GND     | \       |
+| TGS2620 Pin | Description        | Connection                   |
+|-------------|--------------------|-------------------------------|
+| VCC         | Power Input (5V)   | Raspberry Pi 5V   |
+| GND         | Ground             | Raspberry Pi GND  |
+| AOUT        | Analog Output      | MCP3008 CH1       |
 
+
+## Technical Specifications
+
+| Parameter         | Value                                      |
+|-------------------|--------------------------------------------|
+| Interface         | Analog output (AOUT)                       |
+| Supply Voltage    | 5V (±0.2V)                                 |
+| Heater Voltage    | 5V (±0.2V)                                 |
+| Heater Resistance | 83 Ω ±10% (room temp)                      |
+| Preheat Time      | ≥ 1 min for heating                        |
+| Detection Gases   | Alcohol, smoke, organic solvents           |
+| Output Type       | Voltage proportional to gas concentration  |
 
 
 ## Sample Output:
