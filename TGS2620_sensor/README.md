@@ -1,5 +1,7 @@
 # TGS2620 Module #
 
+![TGS2620](TGS2620.jpeg)
+
 ## Overview
 
 The `TGS2620` is a semiconductor gas sensor designed for detecting a wide range of **organic solvent vapors and volatile gases**, including those found in **cigarette smoke, alcohol, and adhesives**. It is suitable for applications involving **air quality monitoring**, **smoke detection**, and **driver smoking behavior analysis**. This sensor provides an **analog output** that reflects gas concentration levels and requires an **external ADC** (like MCP3008) when interfaced with a Raspberry Pi.
@@ -86,5 +88,6 @@ It is particularly sensitive to:
 | 2025-06-06 21:42:33 |                0.350269 |                       350 | Safe    |                        0 |
 | 2025-06-06 21:42:34 |                0.349292 |                       349 | Safe    |                        0 |
 
-
+## Datasheet
+https://www.alldatasheet.com/datasheet-pdf/download/1148643/FIGARO/TGS2620.html
 
