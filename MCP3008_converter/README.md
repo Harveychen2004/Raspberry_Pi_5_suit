@@ -1,5 +1,7 @@
 # MCP3008 10-Bit 8-Channel Analog-to-Digital Converter (ADC) #
 
+![MCP3008](MCP3008.jpeg)
+
 ## Overview
 
 The `MCP3008` is a widely used **10-bit analog-to-digital converter** (ADC) that allows Raspberry Pi and other digital platforms to read **analog voltage signals**. It provides **8 independent input channels**, making it ideal for integrating analog sensors i.e. **MQ gas sensors**, **TGS sensors** with the Raspberry Pi. It communicates via the **SPI protocol**, ensuring fast and reliable analog data conversion in real time.
@@ -31,3 +33,6 @@ Raspberry Pi lacks native analog input pins. The MCP3008 solves this by acting a
 | DOUT        | SPI MISO           | GPIO9  (SPI0_MISO)       |
 | DIN         | SPI MOSI           | GPIO10 (SPI0_MOSI)       |
 | CS/SHDN     | Chip Select        | GPIO8  (SPI0_CE0)        | 
+
+## Datasheet
+https://cdn-shop.adafruit.com/datasheets/MCP3008.pdf
