@@ -1,7 +1,6 @@
 # KY-040 Rotary Encoder Control #
 
-![KY040]
-(https://github.com/Harveychen2004/Raspberry_Pi_5_suit/blob/7f7c3f528e60ff28aade5762cd28d58a00e364af/Environment/Wiring2.jpg)
+![KY040](KY040.png)
 
 ## Overview
 
