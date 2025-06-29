@@ -1,5 +1,7 @@
 # Max30102 Module #
 
+![MAX30102](MAX30102.png)
+
 ## Overview:
 
 The MAX30102 is an integrated pulse oximetry and heart-rate sensor module featuring a photodetector, red and infrared (IR) LEDs, and analog signal processing. It is ideal for applications such as wearable health monitors, medical diagnostics, and driver state detection systems.
@@ -168,3 +170,5 @@ The MAX30102 shines red and infrared light into the skin (e.g., fingertip), and 
 | 2024-07-08 17:15:49 | 143    | 99.855786 |
 | 2024-07-08 17:15:49 | 146.5  | 99.855786 |
 
+## Datasheet:
+https://www.alldatasheet.com/datasheet-pdf/download/859400/MAXIM/MAX30102.html
