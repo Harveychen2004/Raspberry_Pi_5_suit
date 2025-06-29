@@ -1,5 +1,8 @@
 # KY-040 Rotary Encoder Control #
 
+![KY040]
+https://github.com/Harveychen2004/Raspberry_Pi_5_suit/Environment/KY040.png
+
 ## Overview
 
 The `KY-040` is a digital rotary encoder module that detects **rotational direction and steps** using two phase-shifted signals (A and B), plus an optional push-button switch (SW). It is commonly used in user input devices, volume knobs, and menu navigation systems. In this project, the KY-040 encoder is used as a **control interface to toggle the activation or shutdown of sensors and the Pi camera**, allowing seamless mode switching for driver behavior monitoring.
