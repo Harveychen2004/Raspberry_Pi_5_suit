@@ -36,3 +36,4 @@ Additionally, pressing or holding the built-in switch (SW) triggers two GPIO eve
 | SW         | Push-button       |  GPIO12             | Start/stop toggle |
 
 ## Datasheet
+https://www.handsontec.com/dataspecs/module/Rotary%20Encoder.pdf
