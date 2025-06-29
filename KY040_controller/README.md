@@ -31,3 +31,5 @@ Additionally, pressing or holding the built-in switch (SW) triggers two GPIO eve
 | CLK        | Signal A          |  GPIO6             | Rotation detection |
 | DT         | Signal B          |  GPIO5             | Rotation detection |
 | SW         | Push-button       |  GPIO12             | Start/stop toggle |
+
+## Datasheet
