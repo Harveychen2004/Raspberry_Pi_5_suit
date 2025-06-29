@@ -1,5 +1,7 @@
 # MQ135 Module #
 
+![MQ135](MQ135.webp)
+
 ## Overview:
 
 The MQ-135 is a widely used air quality sensor capable of detecting a variety of **harmful gases and volatile organic compounds (VOCs)**. It is commonly used in indoor air quality monitoring, pollution detection, and environmental health projects. This characteristic make it an ideal sensor to detect smoking behavior of driver. It outputs an **analog voltage** corresponding to gas concentration and is suitable for integration with an external ADC (like MCP3008) when used with Raspberry Pi.
@@ -52,3 +54,5 @@ It is sensitive to gases such as:
 ## Sample Output:
 ![image](https://github.com/user-attachments/assets/3f568e36-cea9-4f2f-963b-1ea952466f6a)
 
+## Datasheet:
+https://www.alldatasheet.com/datasheet-pdf/download/1307647/WINSEN/MQ135.html
