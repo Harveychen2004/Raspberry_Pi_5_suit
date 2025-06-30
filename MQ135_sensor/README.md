@@ -4,7 +4,7 @@
 
 ## Overview:
 
-The MQ-135 is a widely used air quality sensor capable of detecting a variety of **harmful gases and volatile organic compounds (VOCs)**. It is commonly used in indoor air quality monitoring, pollution detection, and environmental health projects. This characteristic make it an ideal sensor to detect smoking behavior of driver. It outputs an **analog voltage** corresponding to gas concentration and is suitable for integration with an external ADC (like MCP3008) when used with Raspberry Pi.
+The `MQ-135` is a widely used air quality sensor capable of detecting a variety of **harmful gases and volatile organic compounds (VOCs)**. It is commonly used in indoor air quality monitoring, pollution detection, and environmental health projects. This characteristic make it an ideal sensor to detect smoking behavior of driver. It outputs an **analog voltage** corresponding to gas concentration and is suitable for integration with an external ADC (like MCP3008) when used with Raspberry Pi.
 
 ## Working Principle:
 

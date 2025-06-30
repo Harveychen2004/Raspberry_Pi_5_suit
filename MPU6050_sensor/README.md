@@ -4,7 +4,7 @@
 
 ## Overview:
 
-The MPU6050 is a popular MEMS (Micro-Electro-Mechanical Systems) module that combines a **3-axis gyroscope** and **3-axis accelerometer** on a single chip. It is widely used in motion detection, gesture recognition, robotics, and driver behavior monitoring applications. This module communicates via the **I²C interface**, making it easy to integrate with Raspberry Pi.
+The `MPU6050` is a popular MEMS (Micro-Electro-Mechanical Systems) module that combines a **3-axis gyroscope** and **3-axis accelerometer** on a single chip. It is widely used in motion detection, gesture recognition, robotics, and driver behavior monitoring applications. This module communicates via the **I²C interface**, making it easy to integrate with Raspberry Pi.
 
 ## Working Principle:
 

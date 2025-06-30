@@ -4,7 +4,7 @@
 
 ## Overview:
 
-The MAX30102 is an integrated pulse oximetry and heart-rate sensor module featuring a photodetector, red and infrared (IR) LEDs, and analog signal processing. It is ideal for applications such as wearable health monitors, medical diagnostics, and driver state detection systems.
+The `MAX30102` is an integrated pulse oximetry and heart-rate sensor module featuring a photodetector, red and infrared (IR) LEDs, and analog signal processing. It is ideal for applications such as wearable health monitors, medical diagnostics, and driver state detection systems.
 
 ## Working Principle:
 

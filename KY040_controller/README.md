@@ -34,5 +34,20 @@ Additionally, pressing or holding the built-in switch (SW) triggers two GPIO eve
 | DT         | Signal B          |  GPIO5             | Rotation detection |
 | SW         | Push-button       |  GPIO12             | Start/stop toggle |
 
+## User Interface Design
+The program start as soon as the raspberri pi powered. And the UI below will show on the screen:
+![UI](UI_Design.png)
+Rotate the KY040 button to go through seven modes: 5 sensor + 1 start all + 1 stop all. 
+
+Tap the button to confirm the option.
+
+For the color of the 5 sensor: red indicates it's working; black otherwise.
+
+Hold the button for at least 3 seconds to exit the program.
+
+The data will be automously saved in the data folder, either when you stop a sensor or exit the program. 
+
+However only one csv file can be saved per sensor, so be careful when you shut down your sensor, if you choose to start it again in the same process(Starting the same sensor twice before exiting the program), the earlier data will be lost.
+
 ## Datasheet
 https://www.handsontec.com/dataspecs/module/Rotary%20Encoder.pdf

@@ -1,6 +1,6 @@
 # MCP3008 10-Bit 8-Channel Analog-to-Digital Converter (ADC) #
 
-![MCP3008](MCP3008.jpeg)
+![MCP3008](MCP3008.jpg)
 
 ## Overview
 

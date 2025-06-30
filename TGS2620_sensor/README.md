@@ -1,6 +1,6 @@
 # TGS2620 Module #
 
-![TGS2620](TGS2620.jpeg)
+![TGS2620](TGS2620.jpg)
 
 ## Overview
 
