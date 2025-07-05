@@ -1,5 +1,11 @@
 # Raspberry Pi NOIR V3 Wide Camera Module with Dual-Servo Face Tracking #
 
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="Raspberry-Pi-NoIR-Camera-v3.jpg" alt="Raspberry-Pi-NoIR-Camera-v3" width="150">
+  <img src="PCA9685.jpg" alt="PCA9685" width="150">
+  <img src="SG90.jpg" alt="SG90" width="150">
+</div>
+
 ## Overview
 
 This module integrates a `Raspberry Pi Camera V3 NOIR Wide` with a `dual-servo gimbal system (SG90)` (controlled via `PCA9685 PWM driver`), enabling real-time **driver face tracking** and **facial motion analysis**. It serves as a core component in the intelligent driving system, allowing detection of distracted or fatigued driver behaviors.
